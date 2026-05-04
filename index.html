@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Pocket Vault</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Pocket Vault</h1>
+      <div class="card">
+        <h3>Daily Inspiration</h3>
+        <p id="api-text">Press the button to fetch a task...</p>
+        <button id="fetch-btn">Get New Task</button>
+      </div>
+      <div class="card">
+        <h3>My Private Note</h3>
+        <textarea id="note-input" placeholder="Type a note here..."></textarea>
+        <button id="save-btn">Save to Vault</button>
+        <p id="status-msg"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
